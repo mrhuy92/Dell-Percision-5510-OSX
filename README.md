@@ -35,6 +35,7 @@ sudo mount -uw /
 sudo killall Finder
 ```
 # Tools
-* KexUnity
+* [Kext Utility](http://cvad-mac.narod.ru/index/0-4)
+* [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v2-8-6.254559/)
 # Credits
 * This patch had edited & optimized by **mrhuy**
