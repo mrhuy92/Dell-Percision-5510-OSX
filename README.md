@@ -5,7 +5,7 @@
 * NVME: WD Black SN720 250GB
 * WIFI: Dell DW1560  
 * This repo is based on
-[soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX)
+** [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX)
 * All third party kexts being installed in Clover/Kext/Other.
 
 # HDMI
