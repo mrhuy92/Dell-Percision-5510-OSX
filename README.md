@@ -1,4 +1,6 @@
-# Dell-Precision-5510-Catalina
+# Dell Precision 5510 Hackintosh Catalina
+
+## My Configuration
 * CPU: Intel Core i7 6820HQ 
 * GPU: Intel HD Graphics 530 HD530 
 * RAM: 32GB DDR4 2133 MHz
@@ -11,13 +13,13 @@
   * [wmchris repo](https://github.com/wmchris/DellXPS15-9550-OSX)
 * All third party kexts being installed in **Clover/Kext/Other**.
 
-# What not Working
+## What not Working
 * SD-Card reader
 * Intel 8260NGW (rarely used in the 5510, though if you have it, it must be replaced, recommend is DW1560 for p/p)
 * nVidia Graphics card
 * Thunderbolt 3
 
-# HDMI
+## HDMI
 * To enable HDMI output, add the key/string to location below: 
 ```
 /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist:
@@ -34,8 +36,8 @@
 sudo mount -uw /
 sudo killall Finder
 ```
-# Tools
+## Tools
 * [Kext Utility](http://cvad-mac.narod.ru/index/0-4)
 * [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v2-8-6.254559/)
-# Credits
+## Credits
 * This patch had edited & optimized by **mrhuy**
