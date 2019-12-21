@@ -1,4 +1,4 @@
-# Dell Precision 5510 Hackintosh Catalina
+# Dell Precision 5510 OSX Catalina
 
 ## My Configuration
 * CPU: Intel Core i7 6820HQ 
