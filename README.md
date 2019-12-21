@@ -1,5 +1,7 @@
 # Dell Precision 5510 OSX Catalina
 
+![10.15](https://raw.githubusercontent.com/mrhuy92/Dell-Percision-5510-OSX/10.15/10.15.png)
+
 ## My Configuration
 * CPU: Intel Core i7 6820HQ 
 * GPU: Intel HD Graphics 530 HD530 
