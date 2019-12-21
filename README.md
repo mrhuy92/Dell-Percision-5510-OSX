@@ -1,15 +1,24 @@
 # Dell-Precision-5510-Catalina
-* CPU: Intel i7-6820HQ 
-* GPU: Intel HD530 
-* RAM: SKHynix 32GB DDR4 2133 MHz
+* CPU: Intel Core i7 6820HQ 
+* GPU: Intel HD Graphics 530 HD530 
+* RAM: 32GB DDR4 2133 MHz
 * NVME: WD Black SN720 250GB
-* WIFI: Dell DW1560  
-* This repo is based on
-** [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX)
-* All third party kexts being installed in Clover/Kext/Other.
+* WIFI: Dell DW1560
+* MONITOR: 4K IZGO
+* BIOS: 1.12.0
+* This repo is based on: 
+  * [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX)
+  * [wmchris repo](https://github.com/wmchris/DellXPS15-9550-OSX)
+* All third party kexts being installed in **Clover/Kext/Other**.
+
+# What not Working
+* SD-Card reader
+* Intel 8260NGW (rarely used in the 5510, though if you have it, it must be replaced, recommend is DW1560 for p/p)
+* nVidia Graphics card
+* Thunderbolt 3
 
 # HDMI
-To enable HDMI output, add the key/string to location below: 
+* To enable HDMI output, add the key/string to location below: 
 ```
 /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist:
 	ConfigMap:
@@ -17,19 +26,15 @@ To enable HDMI output, add the key/string to location below:
 			<key>Mac-A5C67F76ED83108C</key>
 			<string>none</string>
 ``` 
-and rebuild kext cache using 
-`sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4).
+* Rebuild kext cache using 
+`sudo kextcache -i /`
 
-* enter command below before HDMI enable edit
+* Enter command below before HDMI enable edit
 ```
 sudo mount -uw /
 sudo killall Finder
 ```
-
-# Catalina Broadcom Bluetooth Fix
-
-* Follow instructions here: https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/?tab=comments#comment-2677805
-
-
+# Tools
+* KexUnity
 # Credits
-- <a class="bbc_url" href="http://cvad-mac.narod.ru/" rel="nofollow external" sl-processed="1" style="color: rgb(15, 114, 218);" title="External link">© cVad 2008-2016</a> for Kext Utility.
+* This patch had edited & optimized by **mrhuy**
