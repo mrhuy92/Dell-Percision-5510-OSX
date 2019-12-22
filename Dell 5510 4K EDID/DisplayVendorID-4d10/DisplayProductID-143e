@@ -20,8 +20,6 @@
     <real>1.10</real>
     <key>DisplayBrightReflection</key>
     <real>573.10</real>
-    <key>IOGFlags</key>
-    <integer>4</integer>
     <key>target-default-ppmm</key>
     <real>10.1510574</real>
 	<key>IODisplayEDID</key>
